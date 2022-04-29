@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="39dp"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_14"
+        tools:context=".MainActivity">
+
+
+
+        <requestFocus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="131dp" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="424dp"
+            android:layout_height="4500dp"
+            android:background="@drawable/img_14"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="94dp"
+            android:layout_height="36dp"
+            android:onClick="logout"
+            android:text="logout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.981"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.003" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="107dp"
+            android:layout_height="40dp"
+            android:onClick="profile"
+            android:text="profile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.002" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="40dp"
+            android:layout_height="43dp"
+            android:onClick="add"
+            android:text="+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.711"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.002" />
+
+        <TextView
+            android:id="@+id/ap11"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.063" />
+
+        <TextView
+            android:id="@+id/ap12"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.077" />
+
+        <TextView
+            android:id="@+id/ap13"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.089" />
+
+        <TextView
+            android:id="@+id/ap14"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.102" />
+
+        <TextView
+            android:id="@+id/ap15"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.114" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="292dp"
+            android:layout_height="253dp"
+            android:layout_marginTop="696dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img_13" />
+
+        <TextView
+            android:id="@+id/ap21"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="976dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Semi D"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView"
+            tools:text="Semi D" />
+
+        <TextView
+            android:id="@+id/ap4"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1652dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Bungalow"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView"
+            tools:text="Bungalow" />
+
+        <TextView
+            android:id="@+id/ap"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2268dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Colonial"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap22"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1051dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Owner Name : Sai Teja"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView"
+            tools:text="Owner Name : Sai Teja" />
+
+        <TextView
+            android:id="@+id/ap5"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1732dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Owner Name : Kavish"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap2"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2332dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Owner Name : Chaitanya"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap23"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1108dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Phone : 72067062100"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap6"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1792dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Phone : 8688665554"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap9"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2392dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Phone : 6305429713"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap24"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1168dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Price : 40,00,000"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap7"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1852dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Price : 80,00,000"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap16"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2448dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Price : 50,00,000"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap25"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1228dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Address : 6-25/1-15 , Hyderabad , Telangana"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap8"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1912dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Address : 7-34/5-12 , Warangal , Telangana"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <TextView
+            android:id="@+id/ap17"
+            android:layout_width="400sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2504dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="9dp"
+            android:text="Address : 5-3/2-22 , Vijayawada , Andhra Pradesh"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img_17" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="301dp"
+            android:layout_height="217dp"
+            android:layout_marginTop="1405dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView"
+            app:srcCompat="@drawable/img_16" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="271dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="2040dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView"
+            app:srcCompat="@drawable/img_18" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+
